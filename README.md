@@ -1,6 +1,7 @@
 # Infra_Optimization
-
+------------------------------------------------
 Infrastructure-Optimization.docx
+------------------------------------------------
 
 1. Create the cluster (EC2 instances with load balancer and elastic IP in case of AWS)
 
@@ -19,9 +20,9 @@ Infrastructure-Optimization.docx
 8. Set criteria such that if the memory of CPU goes beyond 50%, environments automatically get scaled up and configured
 
 
-
+-----------------------------------------------------
 Yaml Files used to Optimize the Infrastructure 
-
+-----------------------------------------------------
 
 cluster.yaml => Ansible Script for Provision
 
