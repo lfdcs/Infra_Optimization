@@ -1,4 +1,7 @@
 # Infra_Optimization
+
+- Create a DevOps infrastructure for an e-commerce application to run on high-availability mode.
+
 ------------------------------------------------
 Infrastructure-Optimization.docx
 ------------------------------------------------
@@ -18,6 +21,15 @@ Infrastructure-Optimization.docx
 7. Take snapshot of ETCD database
 
 8. Set criteria such that if the memory of CPU goes beyond 50%, environments automatically get scaled up and configured
+
+
+------------------------------
+Tools used in this project 
+------------------------------
+- EC2
+- Kubernetes
+- Docker
+- Ansible
 
 
 -----------------------------------------------------
