@@ -1,0 +1,18 @@
+- hosts: localhost
+  tasks:
+          - ec2:
+                  aws_access_key: AKIATWIHO7A7JSQ3IUJY
+                  aws_secret_key: <replace original Secret Key>
+                  key_name: cluster-key
+                  group: Cluster-sg
+                  instance_type: t2.large
+                  image: ami-0742b4e673072066f
+                  wait: yes
+                  wait_timeout: 500
+                  count: 1
+                  instance_tags:
+                          Name: ClusterInstance
+                  monitoring: yes
+                  region: us-east-1
+                  vpc_subnet_id: subnet-c24632cc
+                  assign_public_ip: yes
